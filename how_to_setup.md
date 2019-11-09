@@ -39,7 +39,7 @@ This leads to the following site where we can give our repository a name and cha
 
 ![](screenshots\github_create_new.png)
 
-## Push existing repository
+## Push existing repository to GitHub.com
 After creating the repository we can now add it as a remote origin, which is also an option on GitHub.
 
 ![](screenshots\github_push_existing.png)
