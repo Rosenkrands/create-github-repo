@@ -38,3 +38,16 @@ Go to your site on GitHub.com and select the green new button.
 This leads to the following site where we can give our repository a name and change additional settings.
 
 ![](screenshots\github_create_new.png)
+
+## Push existing repository
+After creating the repository we can now add it as a remote origin, which is also an option on GitHub.
+
+![](screenshots\github_push_existing.png)
+
+We type this command into the Git Bash terminal which would push the local files onto GitHub.com.
+You should see something like:
+
+![](screenshots\git_remote_origin.png)
+
+The local repository has now been pushed to GitHub.com and the workflow from hereon would be to `git add` and `git commit` to the local repository.
+After doing some work you could then `git push -u origin master` to push the work to GitHub.com.
